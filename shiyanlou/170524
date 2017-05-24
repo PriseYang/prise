@@ -1,3 +1,8 @@
+2017.05.24 shiyanlou linux data flow redrection
+1. >;echo 'test' > test1;write 'test1' to the file test1;
+2. >>;echo 'test2' >> test2;add 'test2' to the file test2;
+ 
+
 2017.05.23 github study
 1. github account PriseYang;email:ypsonly@163.com;
 2. git clone http://path/reponstory;
