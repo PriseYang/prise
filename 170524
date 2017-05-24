@@ -1,3 +1,9 @@
+2017.05.24 shiyanlou linux data redirection
+1. echo 'test1'>test1;write 'test1' to test1;
+2. echo 'test2'>>test2;add 'test2' to test2;
+3. echo 'test3'>>test1;test1 output 'test1 \n test3';
+4. echo 'test4'>test2;test2 output test4;
+
 2017.05.23 github study
 1. github account PriseYang;email:ypsonly@163.com;
 2. git clone http://path/reponstory;
