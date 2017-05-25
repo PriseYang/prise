@@ -6,7 +6,7 @@
 
 2017.05.23 github study
 1. github account PriseYang;email:ypsonly@163.com;
-2. git clone http://path/reponstory;
+2. git clone http://path/repository;
 3. git config --global user.name "name";set git account name;
 4. git config --global user.email "name@mail.com";set git account email;
 5. git init;initialize the project to the git reponstory;
