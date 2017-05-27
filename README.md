@@ -1,2 +1,2 @@
 # prise
-study
+study in shiyanlou linux course
