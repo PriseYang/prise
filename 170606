@@ -5,3 +5,4 @@
 4. echo 'test4'>test2;test2 output test4;
 
 2017.06.06 shiyanlou linux data redirection
+1. cat >> filename << EOF;continus add input to filename;
