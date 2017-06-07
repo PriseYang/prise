@@ -6,4 +6,9 @@
 
 2017.06.06 shiyanlou linux data redirection
 1. cat >> filename << EOF;continus add input to filename;
-2. echo content>>file | cat;add input and display
+2. echo 'content'>>file | cat;add input and display
+3. cat file1 file2 >> file3;add content of file1 file2 to file3;
+4. echo "test" | tee file1 file2;input "test" to file1 file2
+5. "0 /dev/stdin;1 /dev/stdout;2 /dev/stderr"
+6. cat nofile >somefile 2>&1;hide the error"no file";
+7. exec 1>somefile;stdout redirected to somefile until exit;
