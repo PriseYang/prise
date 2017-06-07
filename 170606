@@ -12,3 +12,7 @@
 5. "0 /dev/stdin;1 /dev/stdout;2 /dev/stderr"
 6. cat nofile >somefile 2>&1;hide the error"no file";
 7. exec 1>somefile;stdout redirected to somefile until exit;
+8. cat file 1>/dev/null 2>&1;shielding output;
+9. xargs;split the parameter list;
+10.cut -d: -f1 < /etc/passwd |sort | Xargs echo;
+11.cacafire;display the fire with colour;
