@@ -1,0 +1,18 @@
+2017.05.24 shiyanlou linux data redirection
+1. echo 'test1'>test1;write 'test1' to test1;
+2. echo 'test2'>>test2;add 'test2' to test2;
+3. echo 'test3'>>test1;test1 output 'test1 \n test3';
+4. echo 'test4'>test2;test2 output test4;
+
+2017.06.06 shiyanlou linux data redirection
+1. cat >> filename << EOF;continus add input to filename;
+2. echo 'content'>>file | cat;add input and display
+3. cat file1 file2 >> file3;add content of file1 file2 to file3;
+4. echo "test" | tee file1 file2;input "test" to file1 file2
+5. "0 /dev/stdin;1 /dev/stdout;2 /dev/stderr"
+6. cat nofile >somefile 2>&1;hide the error"no file";
+7. exec 1>somefile;stdout redirected to somefile until exit;
+8. cat file 1>/dev/null 2>&1;shielding output;
+9. xargs;split the parameter list;
+10.cut -d: -f1 < /etc/passwd |sort | Xargs echo;
+11.cacafire;display the fire with colour;
