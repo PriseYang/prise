@@ -6,3 +6,12 @@
 5. "()";gr(a|e)y=gray|grey;(grand)?father=father and grandfather;
 6. "\";make the next letter to be special or literal string;
 7. "^";matching the start position of string;
+8. "$";matching the finish position of string;
+9. "{n}";matching the times of "n" in the string;
+10."{n,}";matching the times at least of "n" in the string;
+11."{n,m}";matching the times between <n,m>;
+12.".";matching the letter except "\n";
+13."(pattern)";matching the "pattern",and get the string;
+14."[xyz]";matching the letter one of "xyz";
+15."[^xyz]";matching the letter none of "xyz";
+16."[a-z]";matching the letter one of "a-z";
