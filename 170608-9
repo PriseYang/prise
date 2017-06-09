@@ -1,0 +1,8 @@
+2017.06.08-9 regular expression
+1. "|" choice;boy|girl;boy or girl;
+2. "+" the letter before "+" appear at least once;
+3. "?" the letter before "?" appear at most once;
+4. "*" the letter before "*" don't appear or once or more;
+5. "()";gr(a|e)y=gray|grey;(grand)?father=father and grandfather;
+6. "\";make the next letter to be special or literal string;
+7. "^";matching the start position of string;
