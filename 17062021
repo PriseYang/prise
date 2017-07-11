@@ -4,3 +4,14 @@
 3. grep string file;display the result of matching from file;
 4. grep 'string' file;display the line start with string;
 5. cat file |grep 'string';display the content with string;
+6. echo '12345\nabcd' |grep '[a-z]';abcd;
+7. ehco '12345\nabcd' |grep '[0-9]';1234;
+8. echo '12345\nabcd' |grep '[[:digit:]]';12345;
+9. echo '12345\nabcd' |grep '[[:lower:]]';abcd;
+10.echo '12345\nabcd' |grep '[[:upper:]]';null;
+11.echo '12345\nabcd' |grep '[[:alnum:]]';12345\nabcd;
+12.echo '12345\nabcd' |grep '[[:alpha:]]';abcd;
+13.echo '1234\nabcd\n*' |grep '[[:punct:]]';*;
+14.echo '1234\nabcd\n*' |greo '[[:print:]]';1234\nabcd\n*;
+15.echo '1234\nabcG\n*' |grep '[[:xdigit:]]';1234\nabcG;
+16.sed
