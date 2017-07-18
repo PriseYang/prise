@@ -14,4 +14,4 @@
 13.echo '1234\nabcd\n*' |grep '[[:punct:]]';*;
 14.echo '1234\nabcd\n*' |greo '[[:print:]]';1234\nabcd\n*;
 15.echo '1234\nabcG\n*' |grep '[[:xdigit:]]';1234\nabcG;
-16.sed
+16.sed -i 'linnum+c\string' filename;--replace with string;
