@@ -1,0 +1,2 @@
+grep '^[0-9]' filename >>newfile;choose the line that start with number,and wirte to newfile;
+grep'@*\.com' filename >>newfile;choose the line with the correct mail format,and write to newfile;
