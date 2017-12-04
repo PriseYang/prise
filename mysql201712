@@ -1,0 +1,14 @@
+1  sudo apt-get install mysql-service;
+2  sudo apt-get install mysql-client;
+3  sudo service mysql install;
+4  mysql -u root;
+5  CREATE DATABASE databasename;
+6  SHOW DATABASEs;
+7  USE databasename;
+8  CREATE TABLE tablename;
+9  SHOW TABLES;
+10 SELECT * FROM tablename;
+11 INSERT INTO tablename(rowname)VALUES(values);
+12 rowname PRIMARY KEY;
+13 rowname FORGIEN KEY REFERENCES tablename(rowname);
+14 rowname NOT NULL;
