@@ -12,3 +12,14 @@
 12 rowname PRIMARY KEY;
 13 rowname FORGIEN KEY REFERENCES tablename(rowname);
 14 rowname NOT NULL;
+15 DROP DATABASE databasename;delete databasename;
+16 RENAME TABLE oldname TO newname;rename table;
+17 ALTER TABLE oldname RENAME /TO newname;
+18 ALTER TABLE tablename ADD COLUMN rowname datatype constraint;
+19 ALTER TABLE tablename ADD rowname ....;
+20 ALTER TABLE tablename ADD rowname ... FIRST/AFTER rowname;
+21 ALTER TABLE tablename DROP rowname/COLUMN rowname;
+22 ALTER TABLE tablename CHANGE oldrow newrowname datatype...;
+23 ALTER TABLE tablename MODIFY rowname newdatatype;
+24 UPDATE tablename SET row1name=data,row2name=data WHERE condition;
+25 DELETE FROM tablename WHERE condition;
